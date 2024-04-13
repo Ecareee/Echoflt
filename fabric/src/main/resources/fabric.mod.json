@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${project.version}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
+  "authors": [
+    "${mod_authors}"
+  ],
+  "contact": {
+    "sources": "${mod_repo}",
+    "issues": "${mod_repo}/issues"
+  },
+  "license": "${mod_license}",
+  "icon": "icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.ecaree.echoflt.fabric.EchofltFabric"
+    ]
+  },
+  "mixins": [
+    "echoflt.mixins.json",
+    "echoflt-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "architectury": ">=${architectury_dependency}"
+  }
+}

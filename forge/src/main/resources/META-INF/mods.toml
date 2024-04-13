@@ -25,3 +25,10 @@ mandatory=true
 versionRange="[1.18,1.18.2]"
 ordering="NONE"
 side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="architectury"
+mandatory=true
+versionRange="[${architectury_dependency},)"
+ordering="AFTER"
+side="BOTH"
