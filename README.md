@@ -10,7 +10,7 @@
 ### 概述
 为掉落物显示数量、名称和消失时间。
 
-灵感来自 https://hackmd.io/@mango-minecraft-notes/KubeJS-Notes#物品實體名稱高亮顯示 (同款风格)，因为它似乎在 KubeJS 5 中不起作用。
+灵感来自 https://hackmd.io/@mango-minecraft-notes/KubeJS-Notes#物品實體名稱高亮顯示 (同款风格)，因为它似乎不适用于 KubeJS 5。
 
 ### 画廊
 <img src="images/demo.gif" alt="demo">
