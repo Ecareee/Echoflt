@@ -19,7 +19,7 @@ public class ItemHandler {
             LocalPlayer player = Minecraft.getInstance().player;
             if (player == null) return;
             Vec3 playerPos = player.position();
-            double radius = 20; // 大概是物品能够被渲染的最远距离
+            double radius = 25;
             AABB searchArea = new AABB(playerPos.x - radius, playerPos.y - radius, playerPos.z - radius,
                     playerPos.x + radius, playerPos.y + radius, playerPos.z + radius);
             List<ItemEntity> items = world.getEntitiesOfClass(ItemEntity.class, searchArea, e -> true);
